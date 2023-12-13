@@ -1,0 +1,36 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.topbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #828e82;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+
+.posts {
+  flex: 3;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.mini-profile,
+.status-update,
+.follower-status {
+  margin-bottom: 20px;
+}

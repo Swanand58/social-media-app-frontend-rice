@@ -1,0 +1,35 @@
+.status-update-container {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.status-update-container .input-field {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.status-update-container .submit-button {
+  background-color: #3a606e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.status-update-container .text-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.status-update-container .text-box p {
+  margin: 0;
+}

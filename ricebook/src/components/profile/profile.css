@@ -1,0 +1,157 @@
+.topbar-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #828e82;
+    padding: 10px;
+}
+/* Add this CSS to style your Profile component */
+
+/* Add this CSS to style your Profile component */
+
+.profile-container {
+    text-align: center;
+  }
+  
+  .topbar-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .topbar-profile a {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .mainpage-link {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .picture-upload {
+    margin-bottom: 20px;
+  }
+  
+  .picture-upload .img-input {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .current-info,
+  .update-info {
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .current-info h2,
+  .update-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .current-info p,
+  .update-info input[type="text"],
+  .update-info input[type="tel"],
+  .update-info input[type="password"] {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  .error {
+    color: #db2828;
+    font-size: 0.9em;
+  }
+  
+  .img-input {
+    display: none;
+  }
+  .update-info button {
+    background-color: #3a606e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em; /* Adjust font size if needed */
+  }
+  
+  .update-info button:hover {
+    background-color: #2d4c57;
+  }  
+
+  .current-info {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the element */
+  }
+  
+  .current-info h2 {
+    font-size: 1.5em;
+    color: #3a606e;
+  }
+  
+  .current-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .current-info .name {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  .current-info .email,
+  .current-info .phone,
+  .current-info .zip,
+  .current-info .pass {
+    font-size: 1.1em;
+    color: #555;
+  }
+
+  .update-info {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the element */
+  }
+  
+  .update-info h2 {
+    font-size: 1.5em;
+    color: #3a606e;
+  }
+  
+  .update-info input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .update-info .error {
+    color: #ff4d4d;
+    font-size: 0.9em;
+  }
+  
+  .update-info button {
+    background-color: #3a606e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  

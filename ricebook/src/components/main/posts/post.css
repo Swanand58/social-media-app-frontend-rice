@@ -1,0 +1,367 @@
+.post-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.search button {
+  background-color: #3a606e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search button:hover {
+  background-color: #0a71b4;
+}
+
+.post-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.posts {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+}
+.posts img {
+  max-width: 100%;
+  height: auto;
+}
+
+.posts img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.posts p {
+  margin: 5px 0;
+}
+
+.posts .author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.posts .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.posts .body {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.posts .timestamp {
+  font-size: 12px;
+  color: #888;
+}
+
+.new-post {
+  width: 90%;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.new-post textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.new-post input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.new-post button {
+  background-color: #3a606e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.new-post button:hover {
+  background-color: #0a71b4;
+}
+
+.posts .title {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.posts .body {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.comment-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comment-container {
+  background-color: #828e82;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.comment-close {
+  background-color: #3a606e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+.comment-close:hover {
+  background-color: red;
+}
+
+.comment-heading {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.comment-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comment-list-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  color: #333;
+  position: relative;
+}
+
+.pagination {
+  display: flex;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #828e82;
+  color: #fff;
+  border: 1px solid #0b391e;
+  padding: 8px 16px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #b94329;
+}
+
+.pagination button:active {
+  background-color: #828e82;
+}
+
+.edit-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.edit-container {
+  background-color: #828e82;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-form textarea,
+.edit-form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.edit-form button {
+  background-color: #3a606e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.edit-form button:hover {
+  background-color: #0a71b4;
+}
+
+.edit-comments {
+  margin-top: 20px;
+}
+
+.edit-comments h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.edit-comment-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.edit-comment-list-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  color: #000; /* Adjust text color */
+}
+
+.edit-pagination {
+  display: flex;
+  margin-top: 20px;
+}
+
+.edit-pagination button {
+  background-color: #3a606e;
+  color: #fff;
+  border: 1px solid #0b391e;
+  padding: 8px 16px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.edit-pagination button:hover {
+  background-color: #b94329;
+}
+
+.edit-pagination button:active {
+  background-color: #3a606e;
+}
+
+.edit-form textarea,
+.edit-comment-input,
+.edit-form input,
+.comment-input {
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  resize: none;
+}
+
+.edit-form button,
+.edit-comment-submit,
+.edit-close,
+.comment-submit {
+  background-color: #3a606e;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.edit-form button:hover,
+.edit-comment-submit:hover,
+.comment-submit:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.edit-close:hover {
+  background-color: red;
+}
+
+.posts .buttons {
+  margin-top: 10px;
+}
+
+.posts .buttons button {
+  background-color: #3a606e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+  font-size: 14px; /* Adjust font size for the buttons */
+}
+
+.posts .buttons button:hover {
+  background-color: #0a71b4;
+}
+
+.posts .buttons button:active {
+  background-color: #3a606e;
+}
+  

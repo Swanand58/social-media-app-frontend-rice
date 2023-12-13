@@ -1,0 +1,34 @@
+.mini-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.mini-profile .links a {
+  text-decoration: none;
+  color: #3a606e;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mini-profile .links a:hover {
+  text-decoration: underline;
+}
+
+.mini-profile img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.mini-profile h3 {
+  font-size: 16px;
+  margin: 0;
+  color: #3a606e;
+}

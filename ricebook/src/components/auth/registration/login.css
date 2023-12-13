@@ -1,0 +1,68 @@
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.login-container .ui.form .field {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.login-container .ui.form .field label {
+  width: 30%;
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+.login-container .ui.form .field input {
+  flex: 1;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-container .ui.form .field input[type="password"] {
+  width: 100%;
+}
+
+.login-container .ui.form .field .ui.message {
+  margin-top: 0.5em;
+}
+
+.login-container .button-container {
+  text-align: center;
+}
+
+.login-container .button-container .ui.button {
+  background-color: #3a606e;
+  color: #fff;
+  border: none;
+  padding: 1em 2em;
+  font-size: 1em;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container .button-container .ui.button:hover {
+  background-color: #2d4a55;
+}
+
+.login-container {
+  font-family: "Arial", sans-serif;
+}
+.login-container .reg-container .button-container {
+  margin-top: 1em; /* Add space between input fields and button */
+}
+
+.login-container .reg-container .ui.form .field {
+  margin-bottom: 1.5em; /* Increase spacing between input fields */
+}
+
+.errorMessage {
+  color: red;
+}

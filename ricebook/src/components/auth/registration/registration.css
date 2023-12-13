@@ -1,0 +1,73 @@
+.reg-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reg-container .ui.form .field {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.reg-container .ui.form .field label {
+  width: 30%;
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+.reg-container .ui.form .field input {
+  flex: 1;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.reg-container .ui.form .field input[type="date"] {
+  line-height: 1.6em;
+}
+
+.reg-container .ui.form .field input[type="password"],
+.reg-container .ui.form .field input[type="email"] {
+  width: 100%;
+}
+
+.reg-container .ui.form .field .ui.message {
+  margin-top: 0.5em;
+}
+
+.reg-container .button-container {
+  text-align: center;
+}
+
+.reg-container .button-container .ui.button {
+  background-color: #3a606e;
+  color: #fff;
+  border: none;
+  padding: 1em 2em;
+  font-size: 1em;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reg-container .button-container .ui.button:hover {
+  background-color: #2d4a55;
+}
+.reg-container {
+  font-family: "Arial", sans-serif;
+}
+.ui.message.negative {
+  color: red;
+}
+
+.ui.message.positive {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+  margin-bottom: 1em;
+  padding: 1em;
+}
